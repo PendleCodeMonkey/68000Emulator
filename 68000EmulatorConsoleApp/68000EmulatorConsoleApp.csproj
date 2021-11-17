@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PendleCodeMonkey.MC68000EmulatorConsoleApp</RootNamespace>
+    <Authors>PendleCodeMonkey</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\68000EmulatorLib\68000EmulatorLib.csproj" />
+  </ItemGroup>
+
+</Project>
